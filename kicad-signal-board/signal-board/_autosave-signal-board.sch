@@ -216,7 +216,7 @@ Wire Wire Line
 Text Notes -800 5200 0    50   ~ 0
 FASTLED valid pins\nhttps://github.com/FastLED/FastLED/blob/master/platforms/esp/32/fastpin_esp32.h\n\n0\n- 1 - (WARNING - using TX causes flashness when uploading)\n2\n- 3 - (WARNING - using RX causes flashness when uploading)\n4\n5 (leds)\n- 6 - NOPE\n- 7 - NOPE\n- 8 - NOPE\n- 9 - NOPE\n- 10 - NOPE\n- 11 - NOPE\n12 (leds)\n13 (leds)\n14 \n15 (leds)\n16\n17 (leds)\n18 (leds)\n19 (leds)\n- 20 - NOPE\n- 21 - works, but note that 21 is I2C SDA\n- 22 - works, but note that 22 is I2C SCL\n23 (leds)\n- 24 - NOPE\n25 \n26 \n27 \n- 28 - NOPE\n- 29 - NOPE\n- 30 - NOPE\n- 31 - NOPE\n- 32 - note - needs special handling\n- 33 - note - needs special handling\n\n\n\n
 Text Notes 3650 5750 0    50   ~ 0
-cap and resistor for led\n  cap - .1 microferads, 100 nanoferads, 0804 / 1206\n  resistor - 150 ohm\nconnect some io pins to jumpers\ntwo buttons - hardware debounce\n\n\n\n
+connect some io pins to jumpers\ntwo buttons - hardware debounce\n\n\n\n
 Text GLabel 2600 5050 1    50   Input ~ 0
 5v
 Text GLabel 3450 3950 0    50   Input ~ 0
@@ -536,6 +536,19 @@ F 2 "" H 8200 4500 50  0001 C CNN
 F 3 "~" H 8200 4500 50  0001 C CNN
 	1    8200 4500
 	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 5E8EB38F
+P 3750 1300
+F 0 "SW?" H 3750 1232 50  0000 C CNN
+F 1 "SW_MEC_5G" H 3750 1107 50  0001 C CNN
+F 2 "" H 3750 1500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3750 1500 50  0001 C CNN
+F 4 "digikey" H 3750 1300 50  0001 C CNN "Supplier"
+F 5 "PTS525SM15SMTR2 LFS" H 3750 1300 50  0001 C CNN "Supplier Part"
+	1    3750 1300
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812 D?

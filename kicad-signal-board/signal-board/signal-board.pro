@@ -1,4 +1,4 @@
-update=Saturday, March 28, 2020 at 06:28:26 PM
+update=Monday, March 30, 2020 at 01:24:57 AM
 version=1
 last_client=kicad
 [general]
@@ -246,7 +246,9 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[SchematicFrame]
+[LibeditFrame]
 version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e7fe99c:
+1=00000000-0000-0000-0000-00005e810497:
+[SchematicFrame]
+version=1
