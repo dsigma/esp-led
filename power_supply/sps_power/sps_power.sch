@@ -1,0 +1,335 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5E800EFE
+P 4850 4150
+F 0 "#PWR0101" H 4850 3900 50  0001 C CNN
+F 1 "GND" H 4855 3977 50  0000 C CNN
+F 2 "" H 4850 4150 50  0001 C CNN
+F 3 "" H 4850 4150 50  0001 C CNN
+	1    4850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C3
+U 1 1 5E805CD8
+P 6250 4950
+F 0 "C3" H 6341 4996 50  0000 L CNN
+F 1 "220uF" H 6341 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 6250 4950 50  0001 C CNN
+F 3 "~" H 6250 4950 50  0001 C CNN
+F 4 "493-6277-1-ND" H 6250 4950 50  0001 C CNN "Supplier Part"
+F 5 "Digikey" H 6250 4950 50  0001 C CNN "Supplier"
+	1    6250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5E806E01
+P 5750 3900
+F 0 "D1" V 5704 3979 50  0000 L CNN
+F 1 "1N5819" V 5795 3979 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5750 3900 50  0001 C CNN
+F 3 "~" H 5750 3900 50  0001 C CNN
+F 4 "DigiKey" V 5750 3900 50  0001 C CNN "Supplier"
+F 5 "1N5819HW-FDIDKR-ND" V 5750 3900 50  0001 C CNN "Supplier Part"
+	1    5750 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E81AA34
+P 3750 3800
+F 0 "#PWR0103" H 3750 3550 50  0001 C CNN
+F 1 "GND" H 3755 3627 50  0000 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5E81E67D
+P 5950 4700
+F 0 "R3" V 6155 4700 50  0000 C CNN
+F 1 "3.8K" V 6064 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 4700 50  0001 C CNN
+F 3 "~" H 5950 4700 50  0001 C CNN
+F 4 "Digikey" V 5950 4700 50  0001 C CNN "Supplier"
+F 5 "P3.83KCCT-ND" V 5950 4700 50  0001 C CNN "Supplier Part"
+	1    5950 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 3350 5350 3350
+Wire Wire Line
+	4450 3350 4400 3350
+Connection ~ 4400 3350
+Wire Wire Line
+	5250 3450 5350 3450
+Wire Wire Line
+	5350 3450 5350 3550
+Wire Wire Line
+	5350 3550 5250 3550
+Wire Wire Line
+	5350 3350 5350 3450
+Connection ~ 5350 3350
+Connection ~ 5350 3450
+Wire Wire Line
+	5250 3750 5750 3750
+$Comp
+L Device:L L1
+U 1 1 5E801D9A
+P 6250 3900
+F 0 "L1" H 6302 3946 50  0000 L CNN
+F 1 "220uH" H 6302 3855 50  0000 L CNN
+F 2 "Inductor_SMD:L_Bourns-SRR1005" H 6250 3900 50  0001 C CNN
+F 3 "~" H 6250 3900 50  0001 C CNN
+F 4 "Digikey" H 6250 3900 50  0001 C CNN "Supplier"
+F 5 "SDR1806-221KLCT-ND" H 6250 3900 50  0001 C CNN "Supplier Part"
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4050 4850 4150
+$Comp
+L Device:R_Small_US R2
+U 1 1 5E85D5C3
+P 5550 4950
+F 0 "R2" H 5618 4996 50  0000 L CNN
+F 1 "1.2K" H 5618 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 4950 50  0001 C CNN
+F 3 "~" H 5550 4950 50  0001 C CNN
+F 4 "311-1.20KCRCT-ND" H 5550 4950 50  0001 C CNN "Supplier Part"
+F 5 "DigiKey" H 5550 4950 50  0001 C CNN "Supplier"
+	1    5550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4700 5550 4700
+Wire Wire Line
+	5550 4700 5550 4850
+$Comp
+L power:GND #PWR0104
+U 1 1 5E85F029
+P 5550 5150
+F 0 "#PWR0104" H 5550 4900 50  0001 C CNN
+F 1 "GND" H 5555 4977 50  0000 C CNN
+F 2 "" H 5550 5150 50  0001 C CNN
+F 3 "" H 5550 5150 50  0001 C CNN
+	1    5550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5050 5550 5150
+$Comp
+L power:GND #PWR0105
+U 1 1 5E863A3A
+P 6250 5150
+F 0 "#PWR0105" H 6250 4900 50  0001 C CNN
+F 1 "GND" H 6255 4977 50  0000 C CNN
+F 2 "" H 6250 5150 50  0001 C CNN
+F 3 "" H 6250 5150 50  0001 C CNN
+	1    6250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3850 5550 3850
+Wire Wire Line
+	5550 3850 5550 4700
+Connection ~ 5550 4700
+Wire Wire Line
+	6050 4700 6250 4700
+$Comp
+L power:GND #PWR0106
+U 1 1 5E86CC9B
+P 5750 4050
+F 0 "#PWR0106" H 5750 3800 50  0001 C CNN
+F 1 "GND" H 5755 3877 50  0000 C CNN
+F 2 "" H 5750 4050 50  0001 C CNN
+F 3 "" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 5E87373A
+P 4150 3950
+F 0 "C2" H 4241 3996 50  0000 L CNN
+F 1 "470pF" H 4241 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4150 3950 50  0001 C CNN
+F 3 "~" H 4150 3950 50  0001 C CNN
+F 4 "1276-1253-1-ND" H 4150 3950 50  0001 C CNN "Supplier Part"
+F 5 "Digikey" H 4150 3950 50  0001 C CNN "Supplier"
+	1    4150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E873C1F
+P 4150 4150
+F 0 "#PWR0107" H 4150 3900 50  0001 C CNN
+F 1 "GND" H 4155 3977 50  0000 C CNN
+F 2 "" H 4150 4150 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4050 4150 4150
+Wire Wire Line
+	4150 3750 4150 3850
+Wire Wire Line
+	4150 3750 4450 3750
+$Comp
+L Device:R_Small_US R1
+U 1 1 5E87FF6B
+P 4800 2900
+F 0 "R1" V 5005 2900 50  0000 C CNN
+F 1 "0.33 ohms" V 4914 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 2900 50  0001 C CNN
+F 3 "~" H 4800 2900 50  0001 C CNN
+F 4 "P.33DCT-ND" V 4800 2900 50  0001 C CNN "Supplier Part"
+F 5 "DigiKey" H 4800 2900 50  0001 C CNN "Supplier"
+	1    4800 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2900 4400 2900
+Wire Wire Line
+	4900 2900 5350 2900
+Wire Wire Line
+	4400 2900 4400 3350
+Wire Wire Line
+	5350 2900 5350 3350
+$Comp
+L power:+24V #PWR0102
+U 1 1 5E820AB8
+P 3350 3250
+F 0 "#PWR0102" H 3350 3100 50  0001 C CNN
+F 1 "+24V" H 3365 3423 50  0000 C CNN
+F 2 "" H 3350 3250 50  0001 C CNN
+F 3 "" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3750
+Wire Wire Line
+	5750 3750 6250 3750
+Wire Wire Line
+	6250 4050 6250 4700
+Connection ~ 6250 4700
+Wire Wire Line
+	6250 4700 6250 4850
+Wire Wire Line
+	6250 5050 6250 5150
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5E86AA57
+P 7200 4800
+F 0 "J1" H 7172 4682 50  0000 R CNN
+F 1 "5V Pwr Conn" H 7172 4773 50  0000 R CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 7200 4800 50  0001 C CNN
+F 3 "~" H 7200 4800 50  0001 C CNN
+	1    7200 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E86FA5C
+P 6900 4850
+F 0 "#PWR0108" H 6900 4600 50  0001 C CNN
+F 1 "GND" H 6905 4677 50  0000 C CNN
+F 2 "" H 6900 4850 50  0001 C CNN
+F 3 "" H 6900 4850 50  0001 C CNN
+	1    6900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:MC33063AD U1
+U 1 1 5E7FFA3D
+P 4850 3550
+F 0 "U1" H 4850 4017 50  0000 C CNN
+F 1 "MC33063AD" H 4850 3926 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4900 3100 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 5350 3450 50  0001 C CNN
+F 4 "DigiKey" H 4850 3550 50  0001 C CNN "Supplier"
+F 5 "296-17763-1-ND" H 4850 3550 50  0001 C CNN "Supplier Part"
+	1    4850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3250 3350 3350
+Wire Notes Line style solid
+	3100 2600 8000 2600
+Wire Notes Line style solid
+	8000 2600 8000 5600
+Wire Notes Line style solid
+	8000 5600 3100 5600
+Wire Notes Line style solid
+	3100 5600 3100 2600
+Text Label 6500 4700 0    50   ~ 0
+5V_Out
+Text Label 3400 3350 0    50   ~ 0
+7V_to_24V_Input
+Text Label 3150 2700 0    50   ~ 0
+Switching_Power_Supply
+Wire Wire Line
+	6250 4700 6850 4700
+Wire Wire Line
+	6900 4850 6900 4800
+Wire Wire Line
+	6900 4800 7000 4800
+$Comp
+L Device:CP1_Small C1
+U 1 1 5E810EBD
+P 3750 3550
+F 0 "C1" H 3841 3596 50  0000 L CNN
+F 1 "100uF" H 3841 3505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3750 3550 50  0001 C CNN
+F 3 "~" H 3750 3550 50  0001 C CNN
+F 4 "493-2203-1-ND" H 3750 3550 50  0001 C CNN "Supplier Part"
+F 5 "Digikey" H 3750 3550 50  0001 C CNN "Supplier"
+	1    3750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3350 3750 3350
+Wire Wire Line
+	3750 3450 3750 3350
+Connection ~ 3750 3350
+Wire Wire Line
+	3750 3350 4400 3350
+Wire Wire Line
+	3750 3650 3750 3800
+$Comp
+L power:+5V #PWR?
+U 1 1 5E84131D
+P 6850 4600
+F 0 "#PWR?" H 6850 4450 50  0001 C CNN
+F 1 "+5V" H 6865 4773 50  0000 C CNN
+F 2 "" H 6850 4600 50  0001 C CNN
+F 3 "" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4600 6850 4700
+Connection ~ 6850 4700
+Wire Wire Line
+	6850 4700 7000 4700
+$EndSCHEMATC
