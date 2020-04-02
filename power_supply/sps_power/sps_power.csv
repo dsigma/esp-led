@@ -1,8 +1,8 @@
 "Source:","/home/paradox/esp-led/power_supply/sps_power/sps_power.sch"
-"Date:","Sun 29 Mar 2020 03:04:51 PM PDT"
+"Date:","Wed 01 Apr 2020 05:15:41 PM PDT"
 "Tool:","Eeschema 5.1.5-52549c5~85~ubuntu18.04.1"
 "Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","9"
+"Component Count:","10"
 
 "Individual Components:"
 
@@ -11,11 +11,12 @@
 "","","C2","470pF","Device:CP1_Small","Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~","Digikey","1276-1253-1-ND"
 "","","C3","220uF","Device:CP1_Small","Capacitor_SMD:CP_Elec_10x10","~","Digikey","493-6277-1-ND"
 "","","D1","1N5819","Device:D_Schottky","Diode_SMD:D_SOD-123","~","DigiKey","1N5819HW-FDIDKR-ND"
+"","","J1","5V Pwr Conn","Connector:Conn_01x02_Male","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical","~","",""
 "","","L1","220uH","Device:L","Inductor_SMD:L_Bourns-SRR1005","~","Digikey","SDR1806-221KLCT-ND"
-"","","R1","0.33 ohms","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","P.33DCT-ND"
-"","","R2","1.2K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","311-1.20KCRCT-ND"
+"","","R1","0.33 ohms","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","DigiKey","P.33DCT-ND"
+"","","R2","1.2K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","DigiKey","311-1.20KCRCT-ND"
 "","","R3","3.8K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","Digikey","P3.83KCCT-ND"
-"","","U1","MC33063AD","Regulator_Switching:MC33063AD","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF","",""
+"","","U1","MC33063AD","Regulator_Switching:MC33063AD","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF","DigiKey","296-17763-1-ND"
 
 
 
@@ -26,8 +27,9 @@
 "2","1","C2","470pF","Device:CP1_Small","Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder","~","Digikey","1276-1253-1-ND"
 "3","1","C3","220uF","Device:CP1_Small","Capacitor_SMD:CP_Elec_10x10","~","Digikey","493-6277-1-ND"
 "4","1","D1","1N5819","Device:D_Schottky","Diode_SMD:D_SOD-123","~","DigiKey","1N5819HW-FDIDKR-ND"
-"5","1","L1","220uH","Device:L","Inductor_SMD:L_Bourns-SRR1005","~","Digikey","SDR1806-221KLCT-ND"
-"6","1","R1","0.33 ohms","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","P.33DCT-ND"
-"7","1","R2","1.2K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","","311-1.20KCRCT-ND"
-"8","1","R3","3.8K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","Digikey","P3.83KCCT-ND"
-"9","1","U1","MC33063AD","Regulator_Switching:MC33063AD","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF","",""
+"5","1","J1","5V Pwr Conn","Connector:Conn_01x02_Male","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical","~","",""
+"6","1","L1","220uH","Device:L","Inductor_SMD:L_Bourns-SRR1005","~","Digikey","SDR1806-221KLCT-ND"
+"7","1","R1","0.33 ohms","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","DigiKey","P.33DCT-ND"
+"8","1","R2","1.2K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","DigiKey","311-1.20KCRCT-ND"
+"9","1","R3","3.8K","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","Digikey","P3.83KCCT-ND"
+"10","1","U1","MC33063AD","Regulator_Switching:MC33063AD","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF","DigiKey","296-17763-1-ND"
