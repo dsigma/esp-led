@@ -24,13 +24,13 @@ Connection ~ 4050 3500
 Connection ~ 4050 3600
 Connection ~ 4050 3700
 Connection ~ 4050 3800
-Connection ~ 10750 3050
-Connection ~ 10750 3150
-Connection ~ 10750 3250
-Connection ~ 10750 3350
-Connection ~ 10750 3450
-Connection ~ 10750 3550
-Connection ~ 10750 3650
+Connection ~ 10900 3050
+Connection ~ 10900 3150
+Connection ~ 10900 3250
+Connection ~ 10900 3350
+Connection ~ 10900 3450
+Connection ~ 10900 3550
+Connection ~ 10900 3650
 Connection ~ 4050 3300
 Connection ~ 9700 3950
 NoConn ~ 5850 5750
@@ -307,21 +307,21 @@ Wire Wire Line
 Wire Wire Line
 	9700 3850 9700 3950
 Wire Wire Line
-	10750 2950 10750 3050
+	10900 2950 10900 3050
 Wire Wire Line
-	10750 3050 10750 3150
+	10900 3050 10900 3150
 Wire Wire Line
-	10750 3150 10750 3250
+	10900 3150 10900 3250
 Wire Wire Line
-	10750 3250 10750 3350
+	10900 3250 10900 3350
 Wire Wire Line
-	10750 3350 10750 3450
+	10900 3350 10900 3450
 Wire Wire Line
-	10750 3450 10750 3550
+	10900 3450 10900 3550
 Wire Wire Line
-	10750 3550 10750 3650
+	10900 3550 10900 3650
 Wire Wire Line
-	10750 3650 10750 3750
+	10900 3650 10900 3750
 Text Notes -3450 5300 0    50   ~ 0
 FASTLED valid pins\nhttps://github.com/FastLED/FastLED/blob/master/platforms/esp/32/fastpin_esp32.h\n\n0\n- 1 - (WARNING - using TX causes flashness when uploading)\n2\n- 3 - (WARNING - using RX causes flashness when uploading)\n4\n5 (leds)\n- 6 - NOPE\n- 7 - NOPE\n- 8 - NOPE\n- 9 - NOPE\n- 10 - NOPE\n- 11 - NOPE\n12 (leds)\n13 (leds)\n14 \n15 (leds)\n16\n17 (leds)\n18 (leds)\n19 (leds)\n- 20 - NOPE\n- 21 - works, but note that 21 is I2C SDA\n- 22 - works, but note that 22 is I2C SCL\n23 (leds)\n- 24 - NOPE\n25 \n26 \n27 \n- 28 - NOPE\n- 29 - NOPE\n- 30 - NOPE\n- 31 - NOPE\n- 32 - note - needs special handling\n- 33 - note - needs special handling\n\n\n\n
 $Comp
@@ -514,12 +514,12 @@ $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5E942252
-P 10750 3750
-F 0 "#PWR0118" H 10750 3500 50  0001 C CNN
-F 1 "GND" H 10750 3596 50  0000 C CNN
-F 2 "" H 10750 3750 50  0001 C CNN
-F 3 "" H 10750 3750 50  0001 C CNN
-	1    10750 3750
+P 10900 3750
+F 0 "#PWR0118" H 10900 3500 50  0001 C CNN
+F 1 "GND" H 10900 3596 50  0000 C CNN
+F 2 "" H 10900 3750 50  0001 C CNN
+F 3 "" H 10900 3750 50  0001 C CNN
+	1    10900 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -697,7 +697,7 @@ U 1 1 5E90A01C
 P 5250 2850
 F 0 "C1" H 5110 2837 50  0000 C CNN
 F 1 "0.1µF" H 5450 2832 50  0000 C CNN
-F 2 "" H 5250 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 2850 50  0001 C CNN
 F 3 "~" H 5250 2850 50  0001 C CNN
 F 4 "Digikey" H 5250 2850 50  0001 C CNN "Supplier"
 F 5 "08055C104KAT2A" H 5250 2850 50  0001 C CNN "Supplier Part"
@@ -710,10 +710,10 @@ U 1 1 5E8FA584
 P 5700 2150
 F 0 "C2" H 5560 2137 50  0000 C CNN
 F 1 "0.1µF" H 5900 2132 50  0000 C CNN
-F 2 "" H 5700 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 2150 50  0001 C CNN
 F 3 "~" H 5700 2150 50  0001 C CNN
 F 4 "Digikey" H 5700 2150 50  0001 C CNN "Supplier"
-F 5 "08055C104KAT2A" H 5700 2150 50  0001 C CNN "Supplier Part"
+F 5 "478-1395-1-ND" H 5700 2150 50  0001 C CNN "Supplier Part"
 	1    5700 2150
 	1    0    0    -1  
 $EndComp
@@ -723,7 +723,7 @@ U 1 1 5E8C1568
 P 6000 5400
 F 0 "C3" V 5860 5387 50  0000 C CNN
 F 1 "0.1µF" V 6130 5391 50  0000 C CNN
-F 2 "" H 6000 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 5400 50  0001 C CNN
 F 3 "~" H 6000 5400 50  0001 C CNN
 F 4 "Digikey" H 6000 5400 50  0001 C CNN "Supplier"
 F 5 "08055C104KAT2A" H 6000 5400 50  0001 C CNN "Supplier Part"
@@ -736,10 +736,10 @@ U 1 1 5E99AD1C
 P 8950 2600
 F 0 "C4" V 8810 2587 50  0000 C CNN
 F 1 "1uF" V 9080 2591 50  0000 C CNN
-F 2 "" H 8950 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 2600 50  0001 C CNN
 F 3 "~" H 8950 2600 50  0001 C CNN
 F 4 "digikey" H 8950 2600 50  0001 C CNN "Supplier"
-F 5 "CC0805KKX7R7BB105" H 8950 2600 50  0001 C CNN "Supplier Part"
+F 5 "311-1365-1-ND" H 8950 2600 50  0001 C CNN "Supplier Part"
 	1    8950 2600
 	0    -1   -1   0   
 $EndComp
@@ -785,12 +785,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 5E91A548
-P 10450 3250
-F 0 "J2" H 10500 2734 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 10500 3849 50  0000 C CNN
-F 2 "" H 10450 3250 50  0001 C CNN
-F 3 "~" H 10450 3250 50  0001 C CNN
-	1    10450 3250
+P 10600 3250
+F 0 "J2" H 10650 2734 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10650 3849 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 10600 3250 50  0001 C CNN
+F 3 "~" H 10600 3250 50  0001 C CNN
+	1    10600 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -799,7 +799,7 @@ U 1 1 5E90F867
 P 4250 3700
 F 0 "J1" H 4300 3084 50  0000 C CNN
 F 1 "Conn_02x09_Odd_Even" H 4300 3175 50  0000 C CNN
-F 2 "" H 4250 3700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 4250 3700 50  0001 C CNN
 F 3 "~" H 4250 3700 50  0001 C CNN
 	1    4250 3700
 	1    0    0    -1  
@@ -810,7 +810,7 @@ U 1 1 5E984FA4
 P 9200 3450
 F 0 "IC1" H 9200 2681 50  0000 C CNN
 F 1 "74HCT245" H 9200 2772 50  0000 C CNN
-F 2 "" H 9200 3450 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 9200 3450 50  0001 C CNN
 F 3 "" H 9200 3450 50  0001 C CNN
 F 4 "Digikey" H 9200 3450 50  0001 C CNN "Supplier"
 F 5 "296-15849-1-ND" H 9200 3450 50  0001 C CNN "Supplier Part"
@@ -1221,4 +1221,36 @@ Wire Wire Line
 	1650 7300 1350 7300
 Wire Wire Line
 	1350 7300 1350 7350
+Wire Wire Line
+	10250 2950 10400 2950
+Wire Wire Line
+	10250 3050 10400 3050
+Wire Wire Line
+	10250 3150 10400 3150
+Wire Wire Line
+	10250 3250 10400 3250
+Wire Wire Line
+	10250 3350 10400 3350
+Wire Wire Line
+	10250 3450 10400 3450
+Wire Wire Line
+	10250 3550 10400 3550
+Wire Wire Line
+	10250 3650 10400 3650
+Connection ~ 10050 3350
+Connection ~ 10050 3450
+Connection ~ 10050 3550
+Connection ~ 10050 3650
+Connection ~ 10250 3650
+Connection ~ 10250 3550
+Connection ~ 10250 3450
+Connection ~ 10250 3350
+Connection ~ 10250 3250
+Connection ~ 10250 3150
+Connection ~ 10250 3050
+Connection ~ 10250 2950
+Connection ~ 10050 2950
+Connection ~ 10050 3050
+Connection ~ 10050 3150
+Connection ~ 10050 3250
 $EndSCHEMATC
