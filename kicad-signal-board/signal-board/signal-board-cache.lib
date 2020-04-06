@@ -7,7 +7,7 @@ DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
 F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -27,7 +27,7 @@ DEF Connector_Generic_Conn_02x08_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
 F1 "Connector_Generic_Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_2x??_*
 $ENDFPLIST
@@ -74,11 +74,13 @@ DEF Connector_Generic_Conn_02x09_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
 F1 "Connector_Generic_Conn_02x09_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
+T 0 -500 400 50 0 0 0 I2C Normal 0 C C
+T 0 -550 300 50 0 0 0 TX/RX Normal 0 C C
 S -50 -395 0 -405 1 1 6 N
 S -50 -295 0 -305 1 1 6 N
 S -50 -195 0 -205 1 1 6 N
@@ -125,7 +127,7 @@ DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
 F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  TerminalBlock*:*
 $ENDFPLIST
@@ -148,7 +150,7 @@ DEF Device_CP1_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "Device_CP1_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -168,7 +170,7 @@ DEF Device_D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Device_D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  TO-???*
  *_Diode_*
@@ -177,8 +179,8 @@ $FPLIST
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -190,7 +192,7 @@ DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -213,7 +215,7 @@ DEF Device_R_Small_US R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "Device_R_Small_US" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
@@ -231,8 +233,8 @@ DEF ESP32-DEVKITC-32D_ESP32-DEVKITC-32D U 0 40 Y Y 1 L N
 F0 "U" -601 1026 50 H V L BNN
 F1 "ESP32-DEVKITC-32D_ESP32-DEVKITC-32D" -601 -1101 50 H V L BNN
 F2 "MODULE_ESP32-DEVKITC-32D" 0 0 50 H I L BNN
-F3 "Espressif Systems" 0 0 50 H I L BNN
-F4 "4" 0 0 50 H I L BNN
+F3 "4" 0 0 50 H I L BNN
+F4 "Espressif Systems" 0 0 50 H I L BNN
 DRAW
 P 2 0 0 10 -600 -1000 -600 1000 N
 P 2 0 0 10 -600 1000 600 1000 N
@@ -279,44 +281,13 @@ X IO25 9 -800 100 200 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# LED_WS2812
-#
-DEF LED_WS2812 D 0 10 Y Y 1 F N
-F0 "D" 200 225 50 H V R BNN
-F1 "LED_WS2812" 50 -225 50 H V L TNN
-F2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" 50 -300 50 H I L TNN
-F3 "" 100 -375 50 H I L TNN
-ALIAS WS2812
-$FPLIST
- LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*
-$ENDFPLIST
-DRAW
-T 0 90 -165 30 0 0 0 RGB Normal 0 C C
-S 200 200 -200 -200 0 1 10 f
-P 2 0 1 0 50 -140 70 -140 N
-P 2 0 1 0 50 -100 70 -100 N
-P 2 0 1 0 185 -140 105 -140 N
-P 3 0 1 0 90 -100 50 -140 50 -120 N
-P 3 0 1 0 90 -60 50 -100 50 -80 N
-P 3 0 1 0 145 -40 145 -140 145 -160 N
-P 4 0 1 0 185 -60 105 -60 145 -140 185 -60 N
-X DOUT 1 300 0 100 L 50 50 1 1 O
-X DIN 2 -300 0 100 R 50 50 1 1 I
-X VCC 3 0 300 100 D 50 50 1 1 W
-X NC 4 200 100 100 L 50 50 1 1 N N
-X VDD 5 -100 300 100 D 50 50 1 1 W
-X VSS 6 0 -300 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # Regulator_Switching_MC33063AD
 #
 DEF Regulator_Switching_MC33063AD U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
 F1 "Regulator_Switching_MC33063AD" 0 350 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 50 -450 50 H I L CNN
-F3 "" 500 -100 50 H I C CNN
-ALIAS SC33063AD NCV33063AVD MC34063AD
+F3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" 500 -100 50 H I C CNN
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
 $ENDFPLIST
@@ -339,7 +310,7 @@ DEF Switch_SW_MEC_5G SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
 F1 "Switch_SW_MEC_5G" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+F3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 0 200 50 H I C CNN
 $FPLIST
  SW*MEC*5G*
 $ENDFPLIST
@@ -348,7 +319,7 @@ C -80 0 20 0 1 0 N
 C 80 0 20 0 1 0 N
 P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
-X A 1 -200 0 100 R 50 50 0 1 P N
+X A 1 -200 0 100 R 50 50 0 1 P
 X B 3 200 0 100 L 50 50 0 1 P
 X A 2 -200 0 100 R 50 50 1 1 P N
 X B 4 200 0 100 L 50 50 1 1 P N
@@ -398,11 +369,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# signal-board-rescue_74HCT245-74HCT245
+# signal-board-rescue_74HCT245-74HCT245-signal-board-rescue
 #
-DEF signal-board-rescue_74HCT245-74HCT245 IC 0 40 Y Y 1 L N
+DEF signal-board-rescue_74HCT245-74HCT245-signal-board-rescue IC 0 40 Y Y 1 L N
 F0 "IC" -300 620 50 H V L BNN
-F1 "signal-board-rescue_74HCT245-74HCT245" -300 -700 50 H V L BNN
+F1 "signal-board-rescue_74HCT245-74HCT245-signal-board-rescue" -300 -700 50 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
