@@ -1,4 +1,4 @@
-update=Monday, April 06, 2020 at 12:10:10 AM
+update=Mon 06 Apr 2020 06:44:27 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -16,12 +16,12 @@ LibDir=
 version=1
 [PcbFrame]
 version=1
-[ModEditFrame]
-version=1
 [LibeditFrame]
 version=1
+[ModEditFrame]
+version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e895bbf:
+1=00000000-0000-0000-0000-00005e8d4060:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -49,8 +49,8 @@ TrackWidth2=0.25
 TrackWidth3=0.5
 TrackWidth4=0.75
 TrackWidth5=1
-TrackWidth6=2
-TrackWidth7=3
+TrackWidth6=1.5
+TrackWidth7=2
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
