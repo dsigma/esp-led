@@ -1,4 +1,4 @@
-update=Thursday, April 16, 2020 at 01:18:24 PM
+update=Thu 16 Apr 2020 10:03:40 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -21,7 +21,7 @@ version=1
 [ModEditFrame]
 version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e900097:
+1=00000000-0000-0000-0000-00005e99361a:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
