@@ -121,6 +121,8 @@ Wire Wire Line
 Wire Wire Line
 	3800 8400 4300 8400
 Wire Wire Line
+	3800 8700 3800 8750
+Wire Wire Line
 	3850 3500 4050 3500
 Wire Wire Line
 	3900 9350 3600 9350
@@ -488,10 +490,10 @@ Text Notes -3450 5300 0    50   ~ 0
 FASTLED valid pins\nhttps://github.com/FastLED/FastLED/blob/master/platforms/esp/32/fastpin_esp32.h\n\n0\n- 1 - (WARNING - using TX causes flashness when uploading)\n2\n- 3 - (WARNING - using RX causes flashness when uploading)\n4\n5 (leds)\n- 6 - NOPE\n- 7 - NOPE\n- 8 - NOPE\n- 9 - NOPE\n- 10 - NOPE\n- 11 - NOPE\n12 (leds)\n13 (leds)\n14 \n15 (leds)\n16\n17 (leds)\n18 (leds)\n19 (leds)\n- 20 - NOPE\n- 21 - works, but note that 21 is I2C SDA\n- 22 - works, but note that 22 is I2C SCL\n23 (leds)\n- 24 - NOPE\n25 \n26 \n27 \n- 28 - NOPE\n- 29 - NOPE\n- 30 - NOPE\n- 31 - NOPE\n- 32 - note - needs special handling\n- 33 - note - needs special handling\n\n\n\n
 Text Label 1300 7200 0    79   ~ 0
 Switching_Power_Supply
-Text Label 1650 7900 0    50   ~ 0
-7V_to_24V_Input
 Text Label 4550 9350 0    50   ~ 0
 5V_Out
+Text GLabel 1500 7650 2    50   Input ~ 0
+7V_to_24V_Input
 $Comp
 L power:+24V #PWR?
 U 1 1 5E87C855
@@ -656,14 +658,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E87C832
-P 3800 8700
+P 3800 8750
 AR Path="/5E86A5CD/5E87C832" Ref="#PWR?"  Part="1" 
 AR Path="/5E87C832" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 3800 8450 50  0001 C CNN
-F 1 "GND" H 3805 8527 50  0000 C CNN
-F 2 "" H 3800 8700 50  0001 C CNN
-F 3 "" H 3800 8700 50  0001 C CNN
-	1    3800 8700
+F 0 "#PWR0123" H 3800 8500 50  0001 C CNN
+F 1 "GND" H 3805 8577 50  0000 C CNN
+F 2 "" H 3800 8750 50  0001 C CNN
+F 3 "" H 3800 8750 50  0001 C CNN
+	1    3800 8750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -860,7 +862,7 @@ F 0 "R15" H 3668 9646 50  0000 L CNN
 F 1 "1.2K" H 3668 9555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 9600 50  0001 C CNN
 F 3 "~" H 3600 9600 50  0001 C CNN
-F 4 "311-1.20KCRCT-ND" H 3600 9600 50  0001 C CNN "Supplier Part"
+F 4 "P123801CT-ND" H 3600 9600 50  0001 C CNN "Supplier Part"
 F 5 "DigiKey" H 3600 9600 50  0001 C CNN "Supplier"
 	1    3600 9600
 	1    0    0    -1  
@@ -872,11 +874,11 @@ P 4000 9350
 AR Path="/5E86A5CD/5E87C7FE" Ref="R?"  Part="1" 
 AR Path="/5E87C7FE" Ref="R16"  Part="1" 
 F 0 "R16" V 4205 9350 50  0000 C CNN
-F 1 "3.8K" V 4114 9350 50  0000 C CNN
+F 1 "3.6K" V 4114 9350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 9350 50  0001 C CNN
 F 3 "~" H 4000 9350 50  0001 C CNN
 F 4 "Digikey" V 4000 9350 50  0001 C CNN "Supplier"
-F 5 "P3.83KCCT-ND" V 4000 9350 50  0001 C CNN "Supplier Part"
+F 5 "P123841CT-ND" V 4000 9350 50  0001 C CNN "Supplier Part"
 	1    4000 9350
 	0    -1   -1   0   
 $EndComp
@@ -1169,7 +1171,7 @@ AR Path="/5E86A5CD/5E87C861" Ref="J?"  Part="1"
 AR Path="/5E87C861" Ref="J3"  Part="1" 
 F 0 "J3" H 5222 9332 50  0000 R CNN
 F 1 "5V Pwr Conn" H 5222 9423 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 5250 9450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 9450 50  0001 C CNN
 F 3 "~" H 5250 9450 50  0001 C CNN
 	1    5250 9450
 	-1   0    0    1   
