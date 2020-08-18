@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "signal-board-rescue")(type "Legacy")(uri "${KIPRJMOD}/signal-board-rescue.lib")(options "")(descr ""))
+  (lib (name "74HCT245")(type "Legacy")(uri "/home/paradox/esp-led/kicad footprints/74HCT245/74HCT245.lib")(options "")(descr ""))
+)
