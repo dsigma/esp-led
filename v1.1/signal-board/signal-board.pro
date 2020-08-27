@@ -1,4 +1,4 @@
-update=Monday, August 24, 2020 at 03:53:30 PM
+update=Wednesday, August 26, 2020 at 02:42:05 PM
 version=1
 last_client=kicad
 [general]
@@ -21,7 +21,7 @@ version=1
 [ModEditFrame]
 version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005f444b50:
+1=00000000-0000-0000-0000-00005f4e9540:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -31,8 +31,8 @@ LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
 LastGenCADExportPath=
-CopperLayerCount=2
-BoardThickness=1.6
+CopperLayerCount=4
+BoardThickness=4.655
 AllowMicroVias=0
 AllowBlindVias=0
 MinTrackWidth=0.254
@@ -81,7 +81,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0.101
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -89,11 +89,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -251,7 +251,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.254
+Clearance=0.2
 TrackWidth=0.254
 ViaDiameter=0.508
 ViaDrill=0.254
