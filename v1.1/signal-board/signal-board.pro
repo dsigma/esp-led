@@ -1,4 +1,4 @@
-update=Thursday, August 27, 2020 at 11:18:12 AM
+update=Fri 28 Aug 2020 11:06:36 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -20,8 +20,29 @@ version=1
 version=1
 [PcbFrame]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+NetFmtName=
+SpiceAjustPassiveValues=0
+SubpartIdSeparator=0
+SubpartFirstId=65
+LabSize=50
+TextOffsetRatio=0.08
+LineThickness=6
+BusThickness=12
+WireThickness=6
+JunctionSize=40
+FieldNameTemplates=(templatefields)
+ERC_TestSimilarLabels=1
+ERC_CheckUniqueGlobalLabels=1
+ERC_CheckBusDriverConflicts=1
+ERC_CheckBusEntryConflicts=1
+ERC_CheckBusToBusConflicts=1
+ERC_CheckBusToNetConflicts=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005f4713f6:
+1=00000000-0000-0000-0000-00005f49457e:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -49,8 +70,10 @@ TrackWidth2=0.254
 TrackWidth3=0.5
 TrackWidth4=0.75
 TrackWidth5=1
-TrackWidth6=1.5
-TrackWidth7=2
+TrackWidth6=1.25
+TrackWidth7=1.5
+TrackWidth8=1.75
+TrackWidth9=2
 ViaDiameter1=0.508
 ViaDrill1=0.254
 dPairWidth1=0.254
