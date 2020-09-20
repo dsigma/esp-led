@@ -1,24 +1,24 @@
--Peal 5V off the other side of the capacitor array for the buck  boos power supply output
--Larger 5V traces to 5V pin headers. Need to handle a couple hundred mA.
--Silk screen and pin labels
--Do the pin headers fit straight into a 0.1" proto board?
--Larger trace and/or multi-layer trace to the 12V pin on the headers
--Do a more direct connection of 5V to the DEVKIT 5V pin. It's snaking thru the PCB and will have current draw issues and may brown out the level shifter.
--Will the barrel jack height interfere with our ability to plug a micro USB cable into the ESP32?
--Radius the inside corner of the diving board cutout. They have circular rotingbits and cant do square inside corners
--Consider rotation the solder landing strips 180 degrees so 12V is close to the 12V from the barrel connector
--Is the landing strip offset enough to allow for the micro usb plug to go into the ESP32?
+- Silk screen and GPIO # labels pin- Will the barrel jack height interfere with our ability to plug a micro USB cable into the ESP32?
+
+BEFORE ORDERING 1.1 PCBs
+- extend pcb past the screw holes a bit, so it's oversized for the case. We'll file it down to fit for the test run.
+- bump out the barell connector, half way into the wall of the case.
+- 3d print of the pcb to test fit.
+- formally spec screws for the screw - plastite screws from mcmaster?
+
+
+
+LOW PRIORITY
 -Radius the corners of the PCB as the corners of the case will have a small radius, and be less poky.
--Which side does the JST connector poke out from? By the barrel connector or by the antenna?
-----The wires for the JST are going to go directly over the antenna. This may impact RF and/or cross couple 800khz with 2.4ghz signals. 
--How does the height stackup work with the sheilds? Super long pins? Receipticals onthe ESP-LED and long pins on the sheild?
--For the main 50pc production run, should we no-populate the pins for the shiled connections? Make those a manual add on for the primary batch?
--Some board houses have issues with vias thru pads and soldering processes. It may have DRC check errors. https://macrofab.com/blog/via-in-pad-pcb-design/
--
 
 
 Good
 -antenna diving board
+
+AFTER WE GET THE PCBs
+- confirm the pin headers fit a standard proto board.
+-How does the height stackup work with the sheilds? Super long pins? Receipticals onthe ESP-LED and long pins on the sheild?
+-For the main 50pc production run, should we no-populate the pins for the shiled connections? Make those a manual add on for the primary batch?
 
 Ideas:
 -Extra space: maybe add extra solder pads for an additional JST connector???

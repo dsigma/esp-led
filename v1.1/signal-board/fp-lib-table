@@ -2,4 +2,5 @@
   (lib (name "jst-landing-pads")(type "KiCad")(uri "${KIPRJMOD}/../../kicad footprints/jst-smd-landing.pretty")(options "")(descr ""))
   (lib (name "74HCT245")(type "KiCad")(uri "${KIPRJMOD}/../../kicad footprints/74HCT245")(options "")(descr ""))
   (lib (name "PTS 647")(type "KiCad")(uri "${KIPRJMOD}/../../kicad footprints/PTS647SK38SMTR2LFS")(options "")(descr ""))
+  (lib (name "WiFi LED Logo")(type "KiCad")(uri "${KIPRJMOD}/../../art")(options "")(descr ""))
 )
