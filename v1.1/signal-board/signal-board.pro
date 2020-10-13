@@ -1,4 +1,4 @@
-update=Sun 20 Sep 2020 12:33:33 PM PDT
+update=Tue 29 Sep 2020 08:55:03 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -47,7 +47,7 @@ version=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=signal-board.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=

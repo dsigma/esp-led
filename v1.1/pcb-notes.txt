@@ -1,10 +1,13 @@
 - Silk screen and GPIO # labels pin- Will the barrel jack height interfere with our ability to plug a micro USB cable into the ESP32?
 
 BEFORE ORDERING 1.1 PCBs
+- 3d print of the pcb to test fit.
+
+DONE
 - extend pcb past the screw holes a bit, so it's oversized for the case. We'll file it down to fit for the test run.
 - bump out the barell connector, half way into the wall of the case.
-- 3d print of the pcb to test fit.
 - formally spec screws for the screw - plastite screws from mcmaster?
+--- 5mm long, M1.91 plastite screw, with a Torx T6 head, stainless, 99397A066
 
 
 
