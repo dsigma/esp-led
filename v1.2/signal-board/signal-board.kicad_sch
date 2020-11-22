@@ -1,4 +1,4 @@
-(kicad_sch (version 20200828) (generator eeschema)
+(kicad_sch (version 20201015) (generator eeschema)
 
   (page 1 1)
 
@@ -142,7 +142,7 @@
       (property "ki_description" "test point" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Pin*\nTest*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Pin* Test*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TestPoint_0_1"
@@ -590,7 +590,7 @@
       (property "ki_description" "Inductor" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Choke_*\n*Coil*\nInductor_*\nL_*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "L_0_1"
@@ -637,7 +637,7 @@
       (property "ki_description" "Light emitting diode" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "LED*\nLED_SMD:*\nLED_THT:*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "LED_0_1"
@@ -1114,7 +1114,7 @@
       (property "ki_locked" "" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "ki_fp_filters" "LCC20\nSSOP20" (id 5) (at 0 0 0)
+      (property "ki_fp_filters" "LCC20 SSOP20" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74HCT245-74HCT245-signal-board-rescue_0_0"
@@ -1459,14 +1459,14 @@
   (junction (at 275.59 229.87) (diameter 1.016) (color 0 0 0 0))
   (junction (at 285.75 218.44) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 222.25 78.74))
-  (no_connect (at 181.61 50.8))
-  (no_connect (at 181.61 71.12))
   (no_connect (at 181.61 48.26))
   (no_connect (at 181.61 76.2))
-  (no_connect (at 181.61 73.66))
-  (no_connect (at 222.25 73.66))
   (no_connect (at 222.25 76.2))
+  (no_connect (at 181.61 73.66))
+  (no_connect (at 181.61 71.12))
+  (no_connect (at 222.25 78.74))
+  (no_connect (at 181.61 50.8))
+  (no_connect (at 222.25 73.66))
 
   (wire (pts (xy 36.83 187.96) (xy 46.99 187.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2900,7 +2900,7 @@
     (property "Reference" "R1" (id 0) (at 230.251 221.107 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1K" (id 1) (at 230.251 223.393 0)
+    (property "Value" "1M" (id 1) (at 230.251 223.393 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 229.616 222.504 90)
@@ -2912,7 +2912,7 @@
     (property "Price100" "" (id 4) (at 228.6 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C11702" (id 5) (at 228.6 222.25 0)
+    (property "LCSC" "C26083" (id 5) (at 228.6 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3593,6 +3593,10 @@
     )
   )
 
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005f29365f"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
@@ -3742,7 +3746,7 @@
       (reference "L1") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-00005ed5e669"
-      (reference "R1") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R1") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ed5e8ca"
       (reference "R2") (unit 1) (value "110K") (footprint "Resistor_SMD:R_0402_1005Metric")
