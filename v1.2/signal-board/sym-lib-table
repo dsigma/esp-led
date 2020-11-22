@@ -1,4 +1,8 @@
 (sym_lib_table
-  (lib (name "signal-board-rescue")(type "Legacy")(uri "${KIPRJMOD}/signal-board-rescue.lib")(options "")(descr ""))
-  (lib (name "74HCT245")(type "Legacy")(uri "/home/paradox/esp-led/kicad footprints/74HCT245/74HCT245.lib")(options "")(descr ""))
+  (lib (name "glowflock-level-shifter")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/74HCT245.lib")(options "")(descr ""))
+  (lib (name "glowflock-esp-dev")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
+  (lib (name "glowflock-switch")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/tactile-switch_2-1825027-0.lib")(options "")(descr ""))
+  (lib (name "glowflock-dc-plug")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/dc-plug_PJ-002AH.lib")(options "")(descr ""))
+  (lib (name "glowflock-switch-2")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/tactile-switch_PTS525SM15SMTR2LFS.lib")(options "")(descr ""))
+  (lib (name "glowflock-switch-3")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/tactile-switch_PTS647SK38SMTR2LFS.lib")(options "")(descr ""))
 )
