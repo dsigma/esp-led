@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.99.0-unknown-89dcc4689~104~ubuntu20.04.1*
+G04 #@! TF.CreationDate,2020-10-12T19:49:42-07:00*
+G04 #@! TF.ProjectId,signal-board,7369676e-616c-42d6-926f-6172642e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.99.0-unknown-89dcc4689~104~ubuntu20.04.1) date 2020-10-12 19:49:42*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,5.000000X1.000000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,J3*
+X165430200Y-127076200D03*
+X165430200Y-129616200D03*
+X165430200Y-132156200D03*
+X165430200Y-134696200D03*
+G04 #@! TD*
+M02*
