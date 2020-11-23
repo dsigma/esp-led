@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 36,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -60,7 +60,7 @@
       36,
       37
     ],
-    "visible_layers": "000f2ec_80000003"
+    "visible_layers": "000f2fc_80000007"
   },
   "meta": {
     "filename": "signal-board.kicad_prl",
