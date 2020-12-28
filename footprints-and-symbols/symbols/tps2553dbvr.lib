@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments TPS2553DBVR
+#
+DEF TPS2553DBVR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "TPS2553DBVR" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-TPS2553DBVR-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPS2553&fileType=pdf" 0 500 50 H I L CNN 
+F4 "MO-178-AB*" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "1.5" 0 700 50 H I L CNN "Continuous CurrentMaxA"
+F6 "0.075 to 1.7" 0 800 50 H I L CNN "Current LimitA"
+F7 "+/-7.5% (925mA min / 1075mA max)" 0 900 50 H I L CNN "Current Limit Accuracy  1A"
+F8 "Constant-Current" 0 1000 50 H I L CNN "Current Limit Topology"
+F9 "SLVS841E" 0 1100 50 H I L CNN "Datasheet Version"
+F10 "Active High" 0 1200 50 H I L CNN "Enable"
+F11 "Surface Mount" 0 1300 50 H I L CNN "Mounting Technology"
+F12 "1" 0 1400 50 H I L CNN "Number of Switches"
+F13 "6-Pin Plastic Small-Outline Package, 2.9 x 1.6 mm Body, 0.95 mm Pitch, 2.8 mm Lead Span" 0 1500 50 H I L CNN "Package Description"
+F14 "revK, Mar-2006" 0 1600 50 H I L CNN "Package Version"
+F15 "Catalog" 0 1700 50 H I L CNN "Rating"
+F16 "6.5" 0 1800 50 H I L CNN "Vin Max V"
+F17 "2.5" 0 1900 50 H I L CNN "Vin Min V"
+F18 "IC" 0 2000 50 H I L CNN "category"
+F19 "1436335" 0 2100 50 H I L CNN "ciiva ids"
+F20 "a719e24e92ec60b5" 0 2200 50 H I L CNN "library id"
+F21 "Texas Instruments" 0 2300 50 H I L CNN "manufacturer"
+F22 "DBV0006A" 0 2400 50 H I L CNN "package"
+F23 "1464589895" 0 2500 50 H I L CNN "release date"
+F24 "Yes" 0 2600 50 H I L CNN "rohs"
+F25 "B6E7E08E-10B6-4653-A223-EAB64D354F6F" 0 2700 50 H I L CNN "vault revision"
+F26 "yes" 0 2800 50 H I L CNN "imported"
+F27 "100/DRV, 85/DBV" 0 2900 50 H I L CNN "rDSon per FETTypmOhms"
+DRAW
+X IN 1 100 0 100 R 40 40 1 1 W 
+X GND 2 1100 -400 100 L 40 40 1 1 W 
+X EN 3 100 -400 100 R 40 40 1 1 I 
+X ~FAULT~ 4 100 -200 100 R 40 40 1 1 U 
+X ILIM 5 1100 -200 100 L 40 40 1 1 I 
+X OUT 6 1100 0 100 L 40 40 1 1 W 
+S 200 100 1000 -500 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

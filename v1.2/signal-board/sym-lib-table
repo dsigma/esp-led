@@ -3,4 +3,6 @@
   (lib (name "glowflock-esp-dev")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
   (lib (name "glowflock-dc-plug")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/dc-plug_PJ-002AH.lib")(options "")(descr ""))
   (lib (name "glowflock-switch-3")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/tactile-switch_PTS647SK38SMTR2LFS.lib")(options "")(descr ""))
+  (lib (name "TPS22810")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/tps22810.lib")(options "")(descr ""))
+  (lib (name "TPS2553DVBR")(type "Legacy")(uri "${KIPRJMOD}/../../footprints-and-symbols/symbols/tps2553dbvr.lib")(options "")(descr ""))
 )
