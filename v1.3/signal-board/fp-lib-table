@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "WiFi LED Logo")(type "KiCad")(uri "${KIPRJMOD}/../../art")(options "")(descr ""))
+  (lib (name "GlowFlock footprints")(type "KiCad")(uri "${KIPRJMOD}/../../footprints-and-symbols/footprints")(options "")(descr ""))
+)

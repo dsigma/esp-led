@@ -1,0 +1,127 @@
+28833386398048
+GlowFlock footprints
+CUI_PJ-002AH
+
+
+0
+3
+3
+GlowFlock footprints
+LCC20
+<b>Leadless Chip Carrier</b><p> Ceramic Package
+
+0
+20
+20
+GlowFlock footprints
+MODULE_ESP32-DEVKITC-32D
+
+
+0
+38
+38
+GlowFlock footprints
+PTS647SK38SMTR2LFS
+<b>PTS647SK38SMTR2LFS-2</b><br>
+
+0
+4
+4
+GlowFlock footprints
+SOIC-20W_7.5x10.0mm_P1.27mm
+SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+20
+20
+GlowFlock footprints
+SSOP20
+
+
+0
+20
+20
+GlowFlock footprints
+SW_PTS525SM15SMTR2LFS
+
+
+0
+4
+4
+GlowFlock footprints
+TE_2-1825027-0
+
+
+0
+4
+4
+GlowFlock footprints
+Tactile_Switch
+<b>PTS647SK38SMTR2LFS-2</b><br>
+
+0
+4
+4
+GlowFlock footprints
+Texas_Instruments-DBV0006A-0-0-IPC_A
+
+
+0
+6
+6
+GlowFlock footprints
+Texas_Instruments-DBV0006A-0-0-IPC_B
+
+
+0
+6
+6
+GlowFlock footprints
+Texas_Instruments-DBV0006A-0-0-IPC_C
+
+
+0
+6
+6
+GlowFlock footprints
+Texas_Instruments-DBV0006A-0-0-MFG
+
+
+0
+12
+6
+GlowFlock footprints
+Texas_Instruments-TPS2553DBVR-Level_A
+
+
+0
+6
+6
+GlowFlock footprints
+Texas_Instruments-TPS2553DBVR-Level_B
+
+
+0
+6
+6
+GlowFlock footprints
+Texas_Instruments-TPS2553DBVR-Level_C
+
+
+0
+6
+6
+GlowFlock footprints
+jst-landing
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
+0
+8
+4
+GlowFlock footprints
+jst-smd-landing
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4

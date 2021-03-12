@@ -1,0 +1,28 @@
+- Silk screen and GPIO # labels pin- Will the barrel jack height interfere with our ability to plug a micro USB cable into the ESP32?
+
+BEFORE ORDERING 1.1 PCBs
+- 3d print of the pcb to test fit.
+
+DONE
+- extend pcb past the screw holes a bit, so it's oversized for the case. We'll file it down to fit for the test run.
+- bump out the barell connector, half way into the wall of the case.
+- formally spec screws for the screw - plastite screws from mcmaster?
+--- 5mm long, M1.91 plastite screw, with a Torx T6 head, stainless, 99397A066
+
+
+
+LOW PRIORITY
+-Radius the corners of the PCB as the corners of the case will have a small radius, and be less poky.
+
+
+Good
+-antenna diving board
+
+AFTER WE GET THE PCBs
+- confirm the pin headers fit a standard proto board.
+-How does the height stackup work with the sheilds? Super long pins? Receipticals onthe ESP-LED and long pins on the sheild?
+-For the main 50pc production run, should we no-populate the pins for the shiled connections? Make those a manual add on for the primary batch?
+
+Ideas:
+-Extra space: maybe add extra solder pads for an additional JST connector???
+-Extra Space: Add solder pads/vias for 12V in case you want to just solder wires to the 12v line.
